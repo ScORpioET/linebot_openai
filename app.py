@@ -1,5 +1,7 @@
 from flask import Flask, request, abort
 
+import cv2
+
 from linebot import (
     LineBotApi, WebhookHandler
 )
